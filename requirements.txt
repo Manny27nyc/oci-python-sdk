@@ -16,3 +16,4 @@ sphinx==1.8.3
 tox==3.14.3
 vcrpy==2.0.1
 wheel==0.32.3
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
