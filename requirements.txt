@@ -12,7 +12,9 @@ attrs==19.1.0
 python-dateutil>=2.5.3,<=2.7.3
 pytz>=2016.10
 sphinx-rtd-theme==0.4.2
-sphinx==1.8.3
+sphinx==3.0.4
 tox==3.14.3
 vcrpy==2.0.1
 wheel==0.32.3
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
